@@ -17,6 +17,7 @@ module.exports = function(options) {
     const title = hook.data.title;
     const content = hook.data.content;
     hook.data = {
+      userId: user._id,
       title : title,
       content :  content,
       createdAt: new Date().getTime()
