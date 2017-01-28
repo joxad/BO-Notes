@@ -32,8 +32,8 @@ app.use(compress())
     docsPath: '/docs',
     uiIndex: path.join(__dirname, 'docs.html'),
     info: {
-      title: 'A test',
-      description: 'A description'
+      title: 'Note api',
+      description: 'Api catalog of notes'
     }
   }))
   .configure(socketio())

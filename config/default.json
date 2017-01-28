@@ -5,7 +5,8 @@
   "public": "../public/",
   "auth": {
     "token": {
-      "secret": "xgHICD8mPrUvmVKJli4jNi/Rxdmzm7Z+T+GN8dqJuFWvVrXmsPsJLXd0jMvTf2bBON5v5Pz8SifabQv5PHeBfA=="
+      "secret": "xgHICD8mPrUvmVKJli4jNi/Rxdmzm7Z+T+GN8dqJuFWvVrXmsPsJLXd0jMvTf2bBON5v5Pz8SifabQv5PHeBfA==",
+      "expiresIn" : "20d"
     },
     "local": {},
     "facebook": {
